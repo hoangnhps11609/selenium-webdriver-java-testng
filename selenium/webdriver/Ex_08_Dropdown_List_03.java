@@ -1,16 +1,14 @@
 package webdriver;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Topic_00_Template {
+public class Ex_08_Dropdown_List_03 {
     WebDriver driver;
 
     @BeforeClass
@@ -22,19 +20,14 @@ public class Topic_00_Template {
 
     @Test
     public void TC_01() {
+        driver.get("https://applitools.com/automating-tests-chrome-devtools-recorder-webinar/");
+        
     }
 
 
-    public void toSleep (Integer second){
-        try {
-            Thread.sleep(second * 1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
-//    @AfterClass
-//    public void afterClass() {
-//        driver.quit();
-//    }
+    @AfterClass
+    public void afterClass() {
+        driver.quit();
+    }
 }
