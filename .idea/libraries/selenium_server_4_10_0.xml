@@ -2,9 +2,8 @@
   <library name="selenium-server-4.10.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libraries/testng-7.8.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libraries/selenium-java-4.12.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libraries/selenium-server-4.12.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/datafaker-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/selenium-devtools-v123-4.19.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
