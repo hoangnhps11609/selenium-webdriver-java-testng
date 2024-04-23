@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium WebDriver" verbose="1" parallel="tests" thread-count="3">
+    <parameter name="username" value="autotest@gamil.com"/>
+    <test name="Run on Chrome Browser">
+        <groups>
+            <run>
+                <include name="shopping"/>
+                <include name="buying"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.Topic_03_Assert"/>
+        </classes>
+    </test>
+</suite>
